@@ -20,7 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+header h1 span {
     color: #d9dcd6;
 }
 
@@ -59,7 +59,18 @@ nav {
     background-position: center;
 }
 
-.float-left {
+main section img {
+    float: left;
+    margin-right: 25px;
+}
+
+main section:nth-child(2) img {
+    float: right;
+    margin-left: 25px;
+}
+
+
+/* .float-left {
     float: left;
     margin-right: 25px;
 }
@@ -67,7 +78,7 @@ nav {
 .float-right {
     float: right;
     margin-left: 25px;
-}
+}  */
 
 main {
     width: 75%;
@@ -129,7 +140,13 @@ aside > section > h3 {
     text-align: center;
 } */
 
-.benefit-lead img {
+aside>section>img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -145,9 +162,18 @@ aside > section > h3 {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+} */
+
+main > section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
-.search-engine-optimization {
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -172,9 +198,13 @@ aside > section > h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+} */
+
+main > section > img {
+    max-height: 200px;
 }
 
-.search-engine-optimization img {
+/* .search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -184,9 +214,14 @@ aside > section > h3 {
 
 .social-media-marketing img {
     max-height: 200px;
+} */
+
+main > section > h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -199,15 +234,15 @@ aside > section > h3 {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer > h2 {
     font-size: 20px;
 }
